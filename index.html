@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +7,39 @@
     <title>QUIZ GAME</title>
 </head>
 <body>
-    <h1><span>Quiz Game</span>: Cultura América do Sul</h1>
+    <h1>Quiz Game: Cultura América do Sul</h1>
 
 <!-- Início do Quiz com duas opções de acesso: Start / Instructions -->
     <button id="start">START</button>
     <button id="instructions">Instruções</button>
 
-<!-- Estruta do quiz com Container das Perguntas -->    
+<!-- Estrutura do quiz com Container das Perguntas -->    
     <div class="quiz-container">
-        <div id="quiz"></div>
+        <div id="quiz">
+            <p>Pergunta:</p>
+            <p id="pergunta"></p>
+            <p>Opções:</p>
+            <p id="op1"></p>
+            <p id="op2"></p>
+            <p id="op3"></p>
+
+            <!-- <div>
+                <input type="radio" id="op1" checked>
+                <label for="op1"></label>
+              </div>
+              
+              <div>
+                <input type="radio" id="op2" checked>
+                <label for="op2"></label>
+              </div>
+              
+              <div>
+                <input type="radio" id="op3" checked>
+                <label for="op3"></label>
+              </div> -->
+
+            <p id="info"></p>
+        </div>
     
 <!-- Início do quiz -->
     <button id="previous">Previous Question</button>
