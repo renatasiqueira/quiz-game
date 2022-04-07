@@ -4,50 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
     <title>QUIZ GAME</title>
 </head>
 <body>
     <h1>Quiz Game: Cultura América do Sul</h1>
 
-<!-- Início do Quiz com duas opções de acesso: Start / Instructions -->
+<!-- Início do Quiz com uma opção de acesso: Start -->
     <button id="start">START</button>
-    <button id="instructions">Instruções</button>
 
 <!-- Estrutura do quiz com Container das Perguntas -->    
-    <div class="quiz-container">
+    <div class="quiz-container" >
         <div id="quiz">
+            <p>Fase:</p>
+            <p id="fase"></p>
             <p>Pergunta:</p>
             <p id="pergunta"></p>
             <p>Opções:</p>
             <p id="op1"></p>
             <p id="op2"></p>
             <p id="op3"></p>
-
-            <!-- <div>
-                <input type="radio" id="op1" checked>
-                <label for="op1"></label>
-              </div>
-              
-              <div>
-                <input type="radio" id="op2" checked>
-                <label for="op2"></label>
-              </div>
-              
-              <div>
-                <input type="radio" id="op3" checked>
-                <label for="op3"></label>
-              </div> -->
-
             <p id="info"></p>
-        </div>
-    
-<!-- Início do quiz -->
-    <button id="previous">Previous Question</button>
-    <button id="next">Next Question</button>
-    <button id="submit">Submit Quiz</button>
+            <p>Você tem <span id="tentativas"></span> tentativas restantes.</p>
+
+            <!-- Início do quiz -->
+    <button id="nextButton">Próxima Pergunta</button>
     <div id="results"></div>
 
+        </div>
+        <div class="esconder" id="screenLose">
+            <!-- O que está dentro dessa div é o que vai aparecer quando o jogador perder -->
+            <p>Você perdeu! Tente novamente.</p>
+            <a href="./index.html">Clique aqui para tentar novamente</a>
+        </div>
     </div>
+
+
+    
 
 
 
