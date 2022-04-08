@@ -40,14 +40,10 @@ h1 {
     margin: 0.625rem;
 }
 
-.faseName {
-    text-align: center;
-    font-size: 1.75rem;
-    margin: 0.625rem;
-}
-
 .centro {
     text-align: center;
+    font-size: 1rem;
+    margin: 0.625rem;
 }
 
 
@@ -65,6 +61,12 @@ h1 {
     border-radius: 8px;
 }
 
+.questoes {
+    padding: 1.5rem;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
 
 #instrucoes {
     background: #ccc;
