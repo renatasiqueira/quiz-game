@@ -1,21 +1,21 @@
 //Buenos Aires - Argentina
 const perguntas = [
     {
-        question: "Que prato é o mais detestado pela famosa Mafalda?",
+        question: "Que prato é o mais detestado pela personagem Mafalda?",
         options:["Sopa","Arroz doce", "Doce de leite"], 
         correct: "Sopa",
         phase: "Buenos Aires - Argentina",
     },
     
     {
-        question: "Um bom mate se prepara com água...",
+        question: "Um bom mate se prepara com água na temperatura...",
         options:["30 graus", "80 graus", "Ambiente"], 
         correct: "80 graus",
         phase: "Buenos Aires - Argentina",
     },
     
     {
-        question: "Uma famosa sobremesa argentina é coberta por chocolate e o recheio é doce como mel.",
+        question: "Uma famosa sobremesa argentina é coberta por chocolate e o recheio é doce como mel. Como se chama?",
         options: ["Bolo de sorvete", "Croissant", "Alfajor"],
         correct: "Alfajor",
         phase: "Buenos Aires - Argentina",
