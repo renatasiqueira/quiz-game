@@ -8,31 +8,37 @@
     <title>QUIZ GAME</title>
 </head>
 <body>
-    <main class="tela principal">
+    <main class="tela-principal">
         <section class="conteudos">
 
     <h1>Quiz Game: Cultura América do Sul</h1>
 
-    <article class='centro' id='instrucoes'>
+    <div class='centro' id='instrucoes'>
         Marque a alternativa correta e avance para o próximo país!
-    </article>
+    </div>
 
-    <article class='questoes'>
+    <div class='questoes'>
 <!-- Início do Quiz com uma opção de acesso: Start -->
     <button id="start">START</button>
 
 <!-- Estrutura do quiz com Container das Perguntas -->    
     <div class="quiz-container" >
         <div id="quiz">
-            <p>Fase:</p>
-            <p id="fase"></p>
-            <p>Pergunta:</p>
-            <p id="pergunta" ></p>
-            <p>Opções:</p>
-            <p id="op1"></p>
-            <p id="op2"></p>
-            <p id="op3"></p>
-            <p id="info"></p>
+            <div class="level">
+                <p>Fase:  </p>
+                <p id="fase"></p>
+            </div>
+            <div class="pergunt">
+                <p>Pergunta:</p>
+                <p id="pergunta"></p>
+            </div>
+            <div class="escolha">
+                <p>Opções:</p>
+                <p id="op1"></p>
+                <p id="op2"></p>
+                <p id="op3"></p>
+                <p id="info"></p>
+            </div>
             <p>Você tem <span id="tentativas"></span> tentativas restantes.</p>
 
             <!-- Início do quiz -->
@@ -48,6 +54,7 @@
     </div>
     </article>
         </section>
+        <br>
         <footer class="centro">Desenvolvido por Renata Siqueira,
             <br>
             Turma WebDevelopmentFullTime MAR2022.</footer>
