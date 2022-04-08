@@ -1,15 +1,15 @@
-# **Quiz Game**: América Latina Típica
+# Quiz Game: América Latina Típica
 
 ### Projeto Módulo 1: Game estilo Quiz utilizando DOM. 
 ##### Turma WebDevelopmentFullTime MAR2022
 ---
 ## (Re)Conhecendo a nossa cultura pelo estômago.
 
-### > Objetivo:
+### - Objetivo:
 #### Esperimente o melhor da gastronomia sul-americana sem sair de casa.
 #### Para isso, Assinale as alternativas corretas e avance para o próximo país.
 
-### > Como jogar:
+### - Como jogar:
 #### Inicie o jogo pelo botão START;
 #### Clique na alternativa correta para prosseguir o jogo;
 #### Caso erre uma alternativa, irá perder 5 pontos;
