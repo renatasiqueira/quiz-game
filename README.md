@@ -10,12 +10,8 @@
 ####  Experimente o melhor da gastronomia sul-americana sem sair de casa. 
 
 ### - Objetivo:
-<<<<<<< HEAD
-Assinale as alternativas corretas e avance para o próximo país.
-=======
 #### Experimente o melhor da gastronomia sul-americana sem sair de casa.
 #### Para isso, Assinale as alternativas corretas e avance para o próximo país.
->>>>>>> 18d55a57975dd63d190c77225c1f763873fbef06
 
 ### - Como jogar:
 - Inicie o jogo pelo botão START;
