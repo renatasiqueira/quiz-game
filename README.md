@@ -4,10 +4,10 @@
 ##### Turma WebDevelopmentFullTime MAR2022
 ---
 ## (Re)Conhecendo a nossa cultura pelo estômago.
-###  Esperimente o melhor da gastronomia sul-americana sem sair de casa.
 
 ### - Objetivo:
-Assinale as alternativas corretas e avance para o próximo país.
+#### Esperimente o melhor da gastronomia sul-americana sem sair de casa.
+#### Para isso, Assinale as alternativas corretas e avance para o próximo país.
 
 ### - Como jogar:
 #### Inicie o jogo pelo botão START;
@@ -16,6 +16,6 @@ Assinale as alternativas corretas e avance para o próximo país.
 #### Se você zerar o placar, voltará ao início do jogo;
 
 ---
-### Let's play! >>> 
+#### Let's play! >>> 
 https://renatasiqueira.github.io/quiz-game/
 
